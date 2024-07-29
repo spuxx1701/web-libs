@@ -1,0 +1,19 @@
+/// <reference types="vitest" />
+import baseConfig from '../../vite.base.config';
+import { mergeConfig, defineConfig } from 'vite';
+import { resolve } from 'path';
+
+export default mergeConfig(
+  baseConfig,
+  defineConfig({
+    build: {
+      lib: {
+        entry: {
+          main: resolve(__dirname, 'src/main.ts'),
+        },
+        name: '@spuxx/browser-utils',
+        formats: ['es'],
+      },
+    },
+  }),
+);

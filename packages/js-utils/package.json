@@ -1,0 +1,39 @@
+{
+  "name": "@spuxx/js-utils",
+  "version": "0.3.0",
+  "type": "module",
+  "main": "dist/main.js",
+  "module": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "import": "./dist/main.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "scripts": {
+    "start": "vite dev app",
+    "build": "vite build",
+    "test": "pnpm run test:unit",
+    "test:unit": "vitest run --coverage --reporter=default --reporter=junit --outputFile='reports/junit/junit.xml'",
+    "check": "pnpm types && pnpm run lint && pnpm run prettier-check",
+    "types": "tsc --noEmit",
+    "lint": "eslint . --ext ts,tsx",
+    "prettier-check": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "peerDependencies": {
+    "@modyfi/vite-plugin-yaml": "^1.1.0"
+  },
+  "peerDependenciesMeta": {
+    "@modyfi/vite-plugin-yaml": {
+      "optional": true
+    }
+  }
+}

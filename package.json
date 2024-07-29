@@ -1,0 +1,38 @@
+{
+  "name": "web-libs",
+  "version": "1.0.0",
+  "description": "A collection of libraries a maintain for my personal web stack.",
+  "license": "MIT",
+  "author": {
+    "name": "spuxx",
+    "email": "hi@spuxx.dev",
+    "url": "https://spuxx.dev"
+  },
+  "keywords": [
+    "spuxx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spuxx1701/web-libs"
+  },
+  "homepage": "https://github.com/spuxx1701/web-libs/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/spuxx1701/web-libs/issues"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4",
+    "@types/node": "22.0.0",
+    "@typescript-eslint/eslint-plugin": "7.17.0",
+    "@typescript-eslint/parser": "7.17.0",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "prettier": "3.3.3",
+    "vite": "5.3.5",
+    "vite-plugin-dts": "3.8.1",
+    "vite-tsconfig-paths": "4.3.2",
+    "@modyfi/vite-plugin-yaml": "1.1.0",
+    "vitest": "2.0.4",
+    "@vitest/coverage-v8": "2.0.4"
+  }
+}
