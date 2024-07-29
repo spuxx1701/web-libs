@@ -39,7 +39,7 @@
     "eslint-plugin-prettier": "5.2.1",
     "prettier": "3.3.3",
     "vite": "5.3.5",
-    "vite-plugin-dts": "3.8.1",
+    "vite-plugin-dts": "3.9.1",
     "vite-tsconfig-paths": "4.3.2",
     "@modyfi/vite-plugin-yaml": "1.1.0",
     "vitest": "2.0.4",
