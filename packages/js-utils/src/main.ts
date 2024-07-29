@@ -5,6 +5,4 @@
 export * from './services/mixin';
 export * from './services/logger';
 export * from './services/intl';
-export * from './services/config';
-export * from './services/user-agent';
 export * from './utils/misc.utils';
