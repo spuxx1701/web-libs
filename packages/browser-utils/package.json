@@ -20,14 +20,6 @@
   "scripts": {
     "build": "vite build"
   },
-  "peerDependencies": {
-    "@modyfi/vite-plugin-yaml": "^1.1.0"
-  },
-  "peerDependenciesMeta": {
-    "@modyfi/vite-plugin-yaml": {
-      "optional": true
-    }
-  },
   "dependencies": {
     "@spuxx/js-utils": "workspace:@spuxx/js-utils@*"
   }
