@@ -21,6 +21,7 @@
   },
   "packageManager": "pnpm@9.6.0",
   "scripts": {
+    "publish:test": "pnpm -r publish --dry-run --no-git-checks",
     "test": "pnpm run test:unit",
     "test:unit": "vitest run --coverage",
     "check": "pnpm types && pnpm run lint && pnpm run prettier-check",
