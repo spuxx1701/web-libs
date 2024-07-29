@@ -16,15 +16,11 @@ jobs:
     uses: spuxx1701/ci-cd/.github/workflows/pnpm_run_checks.yml@v4.0.0
     needs:
     - install_deps
-    with:
-      PNPM_BUILD: true
 
   run_unit_tests:
     name: Run unit tests
     uses: spuxx1701/ci-cd/.github/workflows/pnpm_run_unit_tests.yml@v4.0.0
     needs:
     - install_deps
-    with:
-      PNPM_BUILD: true
       COVERAGE_FILENAME: reports/vitest/coverage/cobertura-coverage.xml
       COVERAGE_FAIL_BELOW_MIN: 100

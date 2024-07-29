@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './src/App.tsx';
 import de from './translations/de.yaml';
-import { Intl, Logger } from '@spuxx/browser-utils';
+import { Intl, Logger } from '@spuxx/js-utils';
 
 // Set up `Logger` and test it
 Logger.setLevel('debug');

@@ -18,7 +18,11 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
-    "types": ["vite/client", "@modyfi/vite-plugin-yaml/modules"]
+    "types": ["vite/client", "@modyfi/vite-plugin-yaml/modules"],
+    "paths": {
+      "@spuxx/js-utils": ["./packages/js-utils/src/main.ts"],
+      "@spuxx/browser-utils": ["./packages/browser-utils/src/main.ts"]
+    }
   },
   "include": ["libs", "test-apps"]
 }
