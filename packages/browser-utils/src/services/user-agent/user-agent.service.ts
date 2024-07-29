@@ -1,4 +1,4 @@
-import { ServiceMixin } from '../mixin';
+import { ServiceMixin } from '@spuxx/js-utils';
 import { UserAgentOptions } from './types';
 
 /**
