@@ -1,5 +1,5 @@
 /// <reference types="vitest" />
-import baseConfig from '../../vite.base.config';
+import baseConfig from '../../vite.config';
 import { mergeConfig, defineConfig } from 'vite';
 import { resolve } from 'path';
 

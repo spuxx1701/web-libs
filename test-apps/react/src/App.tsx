@@ -1,4 +1,4 @@
-import { intl } from '../lib/services/intl/intl.service';
+import { intl } from '@spuxx/js-utils';
 
 function App() {
   return (
