@@ -20,6 +20,15 @@
     "url": "https://github.com/spuxx1701/web-libs/issues"
   },
   "packageManager": "pnpm@9.6.0",
+  "scripts": {
+    "test": "pnpm run test:unit",
+    "test:unit": "vitest run --coverage",
+    "check": "pnpm types && pnpm run lint && pnpm run prettier-check",
+    "types": "tsc --noEmit",
+    "lint": "eslint . --ext ts,tsx",
+    "prettier-check": "prettier --check .",
+    "format": "prettier --write ."
+  },
   "devDependencies": {
     "typescript": "5.5.4",
     "@types/node": "22.0.0",

@@ -18,8 +18,6 @@ jobs:
     uses: spuxx1701/ci-cd/.github/workflows/pnpm_run_checks.yml@v4.0.0
     needs:
     - install_deps
-    with:
-      PNPM_FLAGS: --recursive
 
   run_unit_tests:
     name: Run unit tests
@@ -27,6 +25,5 @@ jobs:
     needs:
     - install_deps
     with:
-      PNPM_FLAGS: --recursive
       COVERAGE_FILENAME: reports/vitest/coverage/cobertura-coverage.xml
       COVERAGE_FAIL_BELOW_MIN: 100

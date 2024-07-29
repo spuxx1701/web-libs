@@ -13,7 +13,6 @@ dist-ssr
 *.local
 
 # Reports
-coverage/
 reports/
 pnpm-publish-summary.json
 

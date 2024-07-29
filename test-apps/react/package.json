@@ -4,12 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "vite dev",
-    "check": "pnpm types && pnpm run lint && pnpm run prettier-check",
-    "types": "tsc --noEmit",
-    "lint": "eslint . --ext ts,tsx",
-    "prettier-check": "prettier --check .",
-    "format": "prettier --write ."
+    "dev": "vite dev"
   },
   "dependencies": {
     "@spuxx/js-utils": "workspace:@spuxx/browser-utils@*",
