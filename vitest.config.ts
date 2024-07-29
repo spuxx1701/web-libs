@@ -13,7 +13,7 @@ export default mergeConfig(
         provider: 'v8',
         all: true,
         include: ['packages/**/*.ts'],
-        exclude: ['**/src/main.ts', '**/*types.ts', "**/*vite.config.ts"],
+        exclude: ['**/src/main.ts', '**/*types.ts', '**/*vite.config.ts'],
         reportsDirectory: 'reports/vitest/coverage',
         reporter: ['text', 'cobertura'],
       },
