@@ -3,3 +3,4 @@ reports/
 dist/
 .github/
 .release-please/
+CHANGELOG.md
