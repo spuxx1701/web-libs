@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Chores
 
-- Package source code has been movted into the [web-libs](https://github.com/spuxx1701/web-libs) monorepo.
+- Package source code has been movted into the [jslibs](https://github.com/spuxx1701/jslibs) monorepo.
 
 ## [0.3.0] - 2024-05-23
 

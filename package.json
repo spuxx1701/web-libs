@@ -1,5 +1,5 @@
 {
-  "name": "web-libs",
+  "name": "jslibs",
   "version": "1.0.0",
   "description": "A collection of libraries a maintain for my personal web stack.",
   "license": "MIT",
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/spuxx1701/web-libs"
+    "url": "https://github.com/spuxx1701/jslibs"
   },
-  "homepage": "https://github.com/spuxx1701/web-libs/blob/main/README.md",
+  "homepage": "https://github.com/spuxx1701/jslibslob/main/README.md",
   "bugs": {
-    "url": "https://github.com/spuxx1701/web-libs/issues"
+    "url": "https://github.com/spuxx1701/jslibsssues"
   },
   "packageManager": "pnpm@9.6.0",
   "scripts": {
