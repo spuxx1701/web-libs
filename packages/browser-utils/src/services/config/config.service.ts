@@ -1,6 +1,4 @@
-import { isEmptyOrWhitespace } from '../../utils/misc.utils';
-import { debug } from '../logger';
-import { ServiceMixin } from '../mixin';
+import { ServiceMixin, debug, isEmptyOrWhitespace } from '@spuxx/js-utils';
 import { ConfigOptions } from './types';
 
 /**
