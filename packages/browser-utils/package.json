@@ -1,6 +1,24 @@
 {
   "name": "@spuxx/browser-utils",
   "version": "1.0.0",
+  "description": "A package containing various browser-related utilities for web applications.",
+  "license": "MIT",
+  "author": {
+    "name": "spuxx",
+    "email": "hi@spuxx.dev",
+    "url": "https://spuxx.dev"
+  },
+  "keywords": [
+    "spuxx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spuxx1701/jslibs"
+  },
+  "homepage": "https://github.com/spuxx1701/jslibs/blob/main/packages/browser-utils/README.md",
+  "bugs": {
+    "url": "https://github.com/spuxx1701/jslibs/issues"
+  },
   "type": "module",
   "main": "dist/main.js",
   "module": "dist/main.js",

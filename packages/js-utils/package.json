@@ -1,6 +1,24 @@
 {
   "name": "@spuxx/js-utils",
   "version": "0.1.0",
+  "description": "A package containing various utilities for JavaScript applications.",
+  "license": "MIT",
+  "author": {
+    "name": "spuxx",
+    "email": "hi@spuxx.dev",
+    "url": "https://spuxx.dev"
+  },
+  "keywords": [
+    "spuxx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spuxx1701/jslibs"
+  },
+  "homepage": "https://github.com/spuxx1701/jslibs/blob/main/packages/js-utils/README.md",
+  "bugs": {
+    "url": "https://github.com/spuxx1701/jslibs/issues"
+  },
   "type": "module",
   "main": "dist/main.js",
   "module": "dist/main.js",
