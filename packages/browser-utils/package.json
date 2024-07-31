@@ -1,6 +1,6 @@
 {
   "name": "@spuxx/browser-utils",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "main": "dist/main.js",
   "module": "dist/main.js",
