@@ -20,7 +20,10 @@
   "scripts": {
     "build": "vite build"
   },
-  "dependencies": {
+  "peerDependencies": {
+    "@spuxx/js-utils": "^1.0.0"
+  },
+  "devDependencies": {
     "@spuxx/js-utils": "workspace:@spuxx/js-utils@*"
   }
 }
