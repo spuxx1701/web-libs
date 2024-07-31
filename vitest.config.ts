@@ -12,8 +12,8 @@ export default mergeConfig(
       coverage: {
         provider: 'v8',
         all: true,
-        include: ['packages/**/*.ts'],
-        exclude: ['**/src/main.ts', '**/*types.ts', '**/*vite.config.ts'],
+        include: ['packages/**/src/**/*.ts'],
+        exclude: ['**/src/main.ts', '**/*types.ts'],
         reportsDirectory: 'reports/vitest/coverage',
         reporter: ['text', 'cobertura'],
       },
