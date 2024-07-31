@@ -25,4 +25,4 @@ jobs:
     - run_checks
     - run_unit_tests
     secrets:
-      GITHUB_ACCESS_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+      TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN }}
