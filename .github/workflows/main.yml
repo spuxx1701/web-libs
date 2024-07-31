@@ -17,3 +17,9 @@ jobs:
     with:
       COVERAGE_FILENAME: reports/vitest/coverage/cobertura-coverage.xml
       COVERAGE_FAIL_BELOW_MIN: 100
+
+  run_release_please:
+    name: Create release-please pull request and release
+    uses: spuxx1701/ci-cd/.github/workflows/pnpm_release-please.yml@v4.0.0
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN }}
