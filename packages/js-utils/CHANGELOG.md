@@ -7,4 +7,6 @@
 
 * **npm:** Improved documentation in package.json files ([d46e518](https://github.com/spuxx1701/jslibs/commit/d46e5184e168f0a639cbbac041b296456033a71b))
 
-## Changelog
+## 0.1.0 (2024-07-31)
+
+🌟 Initial release.
