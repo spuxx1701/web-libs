@@ -2,9 +2,7 @@ name: release
 
 on:
   workflow_dispatch:
-  push:
-    tags:
-    - "*-v*"
+  push: tags:*-v* - "*-v*"
 jobs:
   run_checks:
     name: Run code checks
@@ -18,12 +16,10 @@ jobs:
       COVERAGE_FAIL_BELOW_MIN: 100
 
   build_and_publish:
-    name: Build and publish artifact
-    uses: spuxx1701/ci-cd/.github/workflows/pnpm_build_and_publish.yml@v4.0.0
+    name: Build and publish artifact(s)
+    uses: spuxx1701/ci-cd/.github/workflows/pnpm_build_and_publish_monorepo.yml@v4.0.0
     needs:
     - run_checks
     - run_unit_tests
-    with:
-      CHECK_VERSION: false
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
