@@ -23,7 +23,7 @@ jobs:
       COVERAGE_FAIL_BELOW_MIN: 100
 
   run_release_please:
-    name: Create release-please pull request and release
+    name: Run release-please
     uses: spuxx1701/ci-cd/.github/workflows/pnpm_release-please.yml@v4.0.0
     needs:
     - run_checks
