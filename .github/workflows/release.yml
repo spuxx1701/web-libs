@@ -5,8 +5,9 @@ on:
   push:
     tags:
     - "*-v*"
+
 jobs:
-  run_checks:
+  run_cutilshecks:
     name: Run code checks
     uses: spuxx1701/ci-cd/.github/workflows/pnpm_run_checks.yml@v4.0.0
 
