@@ -21,5 +21,8 @@ jobs:
   run_release_please:
     name: Create release-please pull request and release
     uses: spuxx1701/ci-cd/.github/workflows/pnpm_release-please.yml@v4.0.0
+    needs:
+    - run_checks
+    - run_unit_tests
     secrets:
       GITHUB_ACCESS_TOKEN: ${{ secrets.RELEASE_PLEASE_TOKEN }}
