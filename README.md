@@ -1,10 +1,14 @@
 # jslibs
 
+![Release pipeline](https://github.com/spuxx1701/jslibs/actions/workflows/release.yml/badge.svg)
+![Main pipeline](https://github.com/spuxx1701/jslibs/actions/workflows/main.yml/badge.svg)
+![License](https://img.shields.io/github/license/spuxx1701/jslibs)
+
 ## Description
 
 A metarepository containing various package I maintain for my typical JavaScript/TypeScript stack.
 
-Find out more about each individual package:
+Find out more about each individual package here:
 
 - [`@spuxx/js-utils`](/packages/js-utils/README.md)
 - [`@spuxx/browser-utils`](/packages/browser-utils/README.md)
