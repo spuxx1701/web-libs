@@ -36,7 +36,8 @@
     "package.json"
   ],
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "types": "tsc --noEmit"
   },
   "peerDependencies": {
     "@spuxx/js-utils": "^1.0.0"

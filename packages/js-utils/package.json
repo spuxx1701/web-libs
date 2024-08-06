@@ -36,7 +36,8 @@
     "package.json"
   ],
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "types": "tsc --noEmit"
   },
   "peerDependencies": {
     "@modyfi/vite-plugin-yaml": "^1.1.0"

@@ -4,7 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "vite dev"
+    "dev": "vite dev",
+    "types": "tsc --noEmit"
   },
   "dependencies": {
     "@spuxx/js-utils": "workspace:@spuxx/browser-utils@*",
