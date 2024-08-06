@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 import tsconfigPaths from 'vite-tsconfig-paths';
-import ViteYaml from '@modyfi/vite-plugin-yaml';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,6 +13,19 @@ export default defineConfig({
       rollupTypes: true,
     }),
     tsconfigPaths(),
-    ViteYaml(),
   ],
+  test: {
+    globals: true,
+    setupFiles: ['tests/vitest/vitest.setup.ts'],
+    reporters: ['default', 'junit'],
+    outputFile: 'reports/junit/junit.xml',
+    coverage: {
+      provider: 'v8',
+      all: true,
+      include: ['packages/**/src/**/*.ts'],
+      exclude: ['**/src/main.ts', '**/*types.ts'],
+      reportsDirectory: 'reports/vitest/coverage',
+      reporter: ['text', 'cobertura'],
+    },
+  },
 });

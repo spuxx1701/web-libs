@@ -1,0 +1,21 @@
+{
+  "name": "react-test-app",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@spuxx/browser-utils": "workspace:@spuxx/browser-utils@*",
+    "@spuxx/js-utils": "workspace:@spuxx/js-utils@*",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "^4.3.1"
+  }
+}

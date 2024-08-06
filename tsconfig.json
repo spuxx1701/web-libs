@@ -3,26 +3,22 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "moduleResolution": "Node",
     "module": "ESNext",
     "skipLibCheck": true,
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
-    "types": ["vite/client", "@modyfi/vite-plugin-yaml/modules"],
+    "types": ["vite/client", "vitest/globals", "@modyfi/vite-plugin-yaml/modules"],
     "paths": {
-      "@spuxx/js-utils": ["./packages/js-utils/src/main.ts"],
-      "@spuxx/browser-utils": ["./packages/browser-utils/src/main.ts"]
-    }
-  },
-  "include": ["libs", "test-apps"]
+      "@spuxx/js-utils": ["packages/js-utils/src/main.ts"],
+      "@spuxx/browser-utils": ["packages/browser-utils/src/main.ts"]
+    },
+    // NestJS
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
 }
