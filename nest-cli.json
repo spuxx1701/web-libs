@@ -4,7 +4,6 @@
   "monorepo": true,
   "sourceRoot": "apps/nest/src",
   "compilerOptions": {
-    "builder": "swc",
     "typeCheck": true,
     "deleteOutDir": true
   },

@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 import tsconfigPaths from 'vite-tsconfig-paths';
-// import swc from 'unplugin-swc';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,9 +13,6 @@ export default defineConfig({
       rollupTypes: true,
     }),
     tsconfigPaths(),
-    // swc.vite({
-    //   module: { type: 'es6' },
-    // }),
   ],
   test: {
     globals: true,
