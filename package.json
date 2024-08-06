@@ -22,6 +22,7 @@
   "packageManager": "pnpm@9.6.0",
   "private": "true",
   "scripts": {
+    "dev": "concurrently \"cd apps/nest && pnpm dev\" \"cd apps/react && pnpm dev\"",
     "publish:test": "pnpm -r publish --dry-run --no-git-checks",
     "test": "pnpm run test:unit",
     "test:unit": "vitest run --coverage",
@@ -40,6 +41,7 @@
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
     "@vitest/coverage-v8": "2.0.4",
+    "concurrently": "^8.2.2",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
