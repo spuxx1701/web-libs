@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 import tsconfigPaths from 'vite-tsconfig-paths';
-import ViteYaml from '@modyfi/vite-plugin-yaml';
-import swc from 'unplugin-swc';
+// import swc from 'unplugin-swc';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,10 +14,9 @@ export default defineConfig({
       rollupTypes: true,
     }),
     tsconfigPaths(),
-    ViteYaml(),
-    swc.vite({
-      module: { type: 'es6' },
-    }),
+    // swc.vite({
+    //   module: { type: 'es6' },
+    // }),
   ],
   test: {
     globals: true,

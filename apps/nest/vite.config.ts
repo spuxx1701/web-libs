@@ -1,14 +1,16 @@
 /// <reference types="vitest" />
 import baseConfig from '../../vite.config';
 import { mergeConfig, defineConfig } from 'vite';
-import swc from 'unplugin-swc';
+import { VitePluginNode } from 'vite-plugin-node';
 
 export default mergeConfig(
   baseConfig,
   defineConfig({
     plugins: [
-      swc.vite({
-        module: { type: 'es6' },
+      ...baseConfig.plugins!,
+      VitePluginNode({
+        adapter: 'nest',
+        appPath: './src/main.ts',
       }),
     ],
   }),
