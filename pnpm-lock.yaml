@@ -78,7 +78,7 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0(rollup@4.19.1)(vite@5.3.5(@types/node@22.0.0)(terser@5.31.3))
 
-  test-apps/nest:
+  apps/nest:
     dependencies:
       '@nestjs/common':
         specifier: ^10.0.0
@@ -106,7 +106,7 @@ importers:
         specifier: ^10.9.1
         version: 10.9.2(@swc/core@1.7.6)(@types/node@22.0.0)(typescript@5.5.4)
 
-  test-apps/react:
+  apps/react:
     dependencies:
       '@spuxx/js-utils':
         specifier: workspace:@spuxx/browser-utils@*
@@ -3269,7 +3269,7 @@ snapshots:
       symbol-observable: 4.0.0
       yargs-parser: 21.1.1
     transitivePeerDependencies:
-      - chokidar
+    - chokidar
 
   '@angular-devkit/schematics@17.3.8(chokidar@3.6.0)':
     dependencies:
@@ -3279,7 +3279,7 @@ snapshots:
       ora: 5.4.1
       rxjs: 7.8.1
     transitivePeerDependencies:
-      - chokidar
+    - chokidar
 
   '@babel/code-frame@7.24.7':
     dependencies:
@@ -3409,7 +3409,7 @@ snapshots:
       minimatch: 3.1.2
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   '@eslint/js@8.57.0': {}
 
@@ -3419,7 +3419,7 @@ snapshots:
       '@octokit/types': 9.3.2
       minimatch: 5.1.6
     transitivePeerDependencies:
-      - encoding
+    - encoding
 
   '@humanwhocodes/config-array@0.11.14':
     dependencies:
@@ -3427,7 +3427,7 @@ snapshots:
       debug: 4.3.6
       minimatch: 3.1.2
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   '@humanwhocodes/module-importer@1.0.1': {}
 
@@ -3485,7 +3485,7 @@ snapshots:
       '@microsoft/tsdoc-config': 0.16.2
       '@rushstack/node-core-library': 4.0.2(@types/node@22.0.0)
     transitivePeerDependencies:
-      - '@types/node'
+    - '@types/node'
 
   '@microsoft/api-extractor@7.43.0(@types/node@22.0.0)':
     dependencies:
@@ -3503,7 +3503,7 @@ snapshots:
       source-map: 0.6.1
       typescript: 5.4.2
     transitivePeerDependencies:
-      - '@types/node'
+    - '@types/node'
 
   '@microsoft/tsdoc-config@0.16.2':
     dependencies:
@@ -3521,7 +3521,7 @@ snapshots:
       tosource: 2.0.0-alpha.3
       vite: 5.3.5(@types/node@22.0.0)(terser@5.31.3)
     transitivePeerDependencies:
-      - rollup
+    - rollup
 
   '@nestjs/cli@10.4.2(@swc/core@1.7.6)':
     dependencies:
@@ -3547,9 +3547,9 @@ snapshots:
     optionalDependencies:
       '@swc/core': 1.7.6
     transitivePeerDependencies:
-      - esbuild
-      - uglify-js
-      - webpack-cli
+    - esbuild
+    - uglify-js
+    - webpack-cli
 
   '@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1)':
     dependencies:
@@ -3559,8 +3559,8 @@ snapshots:
       tslib: 2.6.3
       uid: 2.0.2
 
-  '@nestjs/core@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/platform-express@10.3.10)(encoding@0.1.13)(reflect-metadata@0.2.2)(rxjs@7.8.1)':
-    dependencies:
+  ? '@nestjs/core@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/platform-express@10.3.10)(encoding@0.1.13)(reflect-metadata@0.2.2)(rxjs@7.8.1)'
+  : dependencies:
       '@nestjs/common': 10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nuxtjs/opencollective': 0.3.2(encoding@0.1.13)
       fast-safe-stringify: 2.1.1
@@ -3573,7 +3573,7 @@ snapshots:
     optionalDependencies:
       '@nestjs/platform-express': 10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10)
     transitivePeerDependencies:
-      - encoding
+    - encoding
 
   '@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10)':
     dependencies:
@@ -3585,7 +3585,7 @@ snapshots:
       multer: 1.4.4-lts.1
       tslib: 2.6.3
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   '@nestjs/schematics@10.1.3(chokidar@3.6.0)(typescript@5.3.3)':
     dependencies:
@@ -3596,10 +3596,10 @@ snapshots:
       pluralize: 8.0.0
       typescript: 5.3.3
     transitivePeerDependencies:
-      - chokidar
+    - chokidar
 
-  '@nestjs/testing@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/platform-express@10.3.10)(encoding@0.1.13)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))':
-    dependencies:
+  ? '@nestjs/testing@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/platform-express@10.3.10)(encoding@0.1.13)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/platform-express@10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.3.10))'
+  : dependencies:
       '@nestjs/common': 10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1)
       '@nestjs/core': 10.3.10(@nestjs/common@10.3.10(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/platform-express@10.3.10)(encoding@0.1.13)(reflect-metadata@0.2.2)(rxjs@7.8.1)
       tslib: 2.6.3
@@ -3624,7 +3624,7 @@ snapshots:
       consola: 2.15.3
       node-fetch: 2.7.0(encoding@0.1.13)
     transitivePeerDependencies:
-      - encoding
+    - encoding
 
   '@octokit/auth-token@3.0.4': {}
 
@@ -3638,7 +3638,7 @@ snapshots:
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.1
     transitivePeerDependencies:
-      - encoding
+    - encoding
 
   '@octokit/endpoint@7.0.6':
     dependencies:
@@ -3652,7 +3652,7 @@ snapshots:
       '@octokit/types': 9.3.2
       universal-user-agent: 6.0.1
     transitivePeerDependencies:
-      - encoding
+    - encoding
 
   '@octokit/openapi-types@18.1.1': {}
 
@@ -3686,7 +3686,7 @@ snapshots:
       node-fetch: 2.7.0(encoding@0.1.13)
       universal-user-agent: 6.0.1
     transitivePeerDependencies:
-      - encoding
+    - encoding
 
   '@octokit/rest@19.0.13(encoding@0.1.13)':
     dependencies:
@@ -3695,7 +3695,7 @@ snapshots:
       '@octokit/plugin-request-log': 1.0.4(@octokit/core@4.2.4(encoding@0.1.13))
       '@octokit/plugin-rest-endpoint-methods': 7.2.3(@octokit/core@4.2.4(encoding@0.1.13))
     transitivePeerDependencies:
-      - encoding
+    - encoding
 
   '@octokit/tsconfig@1.0.2': {}
 
@@ -3798,7 +3798,7 @@ snapshots:
       argparse: 1.0.10
       string-argv: 0.3.2
     transitivePeerDependencies:
-      - '@types/node'
+    - '@types/node'
 
   '@swc/core-darwin-arm64@1.7.6':
     optional: true
@@ -3947,8 +3947,8 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)':
-    dependencies:
+  ? '@typescript-eslint/eslint-plugin@7.18.0(@typescript-eslint/parser@7.18.0(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)'
+  : dependencies:
       '@eslint-community/regexpp': 4.11.0
       '@typescript-eslint/parser': 7.18.0(eslint@8.57.0)(typescript@5.5.4)
       '@typescript-eslint/scope-manager': 7.18.0
@@ -3963,7 +3963,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.5.4
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   '@typescript-eslint/parser@7.18.0(eslint@8.57.0)(typescript@5.5.4)':
     dependencies:
@@ -3976,7 +3976,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.5.4
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   '@typescript-eslint/scope-manager@7.18.0':
     dependencies:
@@ -3993,7 +3993,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.5.4
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   '@typescript-eslint/types@7.18.0': {}
 
@@ -4010,7 +4010,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.5.4
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   '@typescript-eslint/utils@7.18.0(eslint@8.57.0)(typescript@5.5.4)':
     dependencies:
@@ -4020,8 +4020,8 @@ snapshots:
       '@typescript-eslint/typescript-estree': 7.18.0(typescript@5.5.4)
       eslint: 8.57.0
     transitivePeerDependencies:
-      - supports-color
-      - typescript
+    - supports-color
+    - typescript
 
   '@typescript-eslint/visitor-keys@7.18.0':
     dependencies:
@@ -4046,7 +4046,7 @@ snapshots:
       tinyrainbow: 1.2.0
       vitest: 2.0.4(@types/node@22.0.0)(terser@5.31.3)
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   '@vitest/expect@2.0.4':
     dependencies:
@@ -4228,7 +4228,7 @@ snapshots:
     dependencies:
       debug: 4.3.6
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   ajv-formats@2.1.1(ajv@8.12.0):
     optionalDependencies:
@@ -4332,7 +4332,7 @@ snapshots:
       type-is: 1.6.18
       unpipe: 1.0.0
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   boolbase@1.0.0: {}
 
@@ -4470,7 +4470,7 @@ snapshots:
       parse-diff: 0.11.1
       yargs: 16.2.0
     transitivePeerDependencies:
-      - encoding
+    - encoding
 
   color-convert@1.9.3:
     dependencies:
@@ -4805,7 +4805,7 @@ snapshots:
       strip-ansi: 6.0.1
       text-table: 0.2.0
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   espree@9.6.1:
     dependencies:
@@ -4887,7 +4887,7 @@ snapshots:
       utils-merge: 1.0.1
       vary: 1.1.2
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   external-editor@3.1.0:
     dependencies:
@@ -4939,7 +4939,7 @@ snapshots:
       statuses: 2.0.1
       unpipe: 1.0.0
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   find-up@4.1.0:
     dependencies:
@@ -5132,14 +5132,14 @@ snapshots:
       agent-base: 7.1.1
       debug: 4.3.6
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   https-proxy-agent@7.0.5:
     dependencies:
       agent-base: 7.1.1
       debug: 4.3.6
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   human-signals@5.0.0: {}
 
@@ -5264,7 +5264,7 @@ snapshots:
       debug: 4.3.6
       istanbul-lib-coverage: 3.2.2
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   istanbul-reports@3.1.7:
     dependencies:
@@ -5818,8 +5818,8 @@ snapshots:
       yaml: 2.5.0
       yargs: 17.7.2
     transitivePeerDependencies:
-      - encoding
-      - supports-color
+    - encoding
+    - supports-color
 
   repeat-string@1.6.1: {}
 
@@ -5927,7 +5927,7 @@ snapshots:
       range-parser: 1.2.1
       statuses: 2.0.1
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   serialize-javascript@6.0.2:
     dependencies:
@@ -5940,7 +5940,7 @@ snapshots:
       parseurl: 1.3.3
       send: 0.18.0
     transitivePeerDependencies:
-      - supports-color
+    - supports-color
 
   set-function-length@1.2.2:
     dependencies:
@@ -6258,7 +6258,7 @@ snapshots:
       load-tsconfig: 0.2.5
       unplugin: 1.12.0
     transitivePeerDependencies:
-      - rollup
+    - rollup
 
   unplugin@1.12.0:
     dependencies:
@@ -6300,14 +6300,14 @@ snapshots:
       tinyrainbow: 1.2.0
       vite: 5.3.5(@types/node@22.0.0)(terser@5.31.3)
     transitivePeerDependencies:
-      - '@types/node'
-      - less
-      - lightningcss
-      - sass
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
+    - '@types/node'
+    - less
+    - lightningcss
+    - sass
+    - stylus
+    - sugarss
+    - supports-color
+    - terser
 
   vite-plugin-dts@3.9.1(@types/node@22.0.0)(rollup@4.19.1)(typescript@5.5.4)(vite@5.3.5(@types/node@22.0.0)(terser@5.31.3)):
     dependencies:
@@ -6322,9 +6322,9 @@ snapshots:
     optionalDependencies:
       vite: 5.3.5(@types/node@22.0.0)(terser@5.31.3)
     transitivePeerDependencies:
-      - '@types/node'
-      - rollup
-      - supports-color
+    - '@types/node'
+    - rollup
+    - supports-color
 
   vite-tsconfig-paths@4.3.2(typescript@5.5.4)(vite@5.3.5(@types/node@22.0.0)(terser@5.31.3)):
     dependencies:
@@ -6334,8 +6334,8 @@ snapshots:
     optionalDependencies:
       vite: 5.3.5(@types/node@22.0.0)(terser@5.31.3)
     transitivePeerDependencies:
-      - supports-color
-      - typescript
+    - supports-color
+    - typescript
 
   vite@5.3.5(@types/node@22.0.0)(terser@5.31.3):
     dependencies:
@@ -6371,13 +6371,13 @@ snapshots:
     optionalDependencies:
       '@types/node': 22.0.0
     transitivePeerDependencies:
-      - less
-      - lightningcss
-      - sass
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
+    - less
+    - lightningcss
+    - sass
+    - stylus
+    - sugarss
+    - supports-color
+    - terser
 
   vue-template-compiler@2.7.16:
     dependencies:
@@ -6435,9 +6435,9 @@ snapshots:
       watchpack: 2.4.1
       webpack-sources: 3.2.3
     transitivePeerDependencies:
-      - '@swc/core'
-      - esbuild
-      - uglify-js
+    - '@swc/core'
+    - esbuild
+    - uglify-js
 
   whatwg-url@5.0.0:
     dependencies:

@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/nest-cli",
   "collection": "@nestjs/schematics",
   "monorepo": true,
-  "sourceRoot": "test-apps/nest/src",
+  "sourceRoot": "apps/nest/src",
   "compilerOptions": {
     "builder": "swc",
     "typeCheck": true,
@@ -11,8 +11,8 @@
   "projects": {
     "test-app": {
       "type": "application",
-      "root": "test-apps/nest",
-      "sourceRoot": "test-apps/nest/src"
+      "root": "apps/nest",
+      "sourceRoot": "apps/nest/src"
     }
   }
 }
