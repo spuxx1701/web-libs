@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/spuxx1701/jslibs/compare/browser-utils-v1.1.0...browser-utils-v1.2.0) (2024-08-06)
+
+
+### Features
+
+* **readme:** Improve documentation ([b46811e](https://github.com/spuxx1701/jslibs/commit/b46811ecd987515cb69a7b34b26c8847c58aa004))
+
 ## [1.1.0](https://github.com/spuxx1701/jslibs/compare/browser-utils-v1.0.0...browser-utils-v1.1.0) (2024-07-31)
 
 
