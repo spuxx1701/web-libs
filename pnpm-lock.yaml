@@ -240,8 +240,8 @@ importers:
   typedoc:
     devDependencies:
       p-limit:
-        specifier: 7.3.0
-        version: 7.3.0
+        specifier: 7.3.2
+        version: 7.3.2
       typedoc:
         specifier: 0.28.18
         version: 0.28.18(typescript@6.0.3)
@@ -3726,6 +3726,10 @@ packages:
 
   p-limit@7.3.0:
     resolution: {integrity: sha512-7cIXg/Z0M5WZRblrsOla88S4wAK+zOQQWeBYfV3qJuJXMr+LnbYjaadrFaS0JILfEDPVqHyKnZ1Z/1d6J9VVUw==}
+    engines: {node: '>=20'}
+
+  p-limit@7.3.2:
+    resolution: {integrity: sha512-Ll0w3fU24vYpXoZmjjZIee6bJQDgG0oAyo1PdmFYI8UDwJJddaHAypxIH9avUu+t+lSsAwKVsb1jDCMIIChliw==}
     engines: {node: '>=20'}
 
   p-locate@4.1.0:
@@ -9140,6 +9144,10 @@ snapshots:
       yocto-queue: 0.1.0
 
   p-limit@7.3.0:
+    dependencies:
+      yocto-queue: 1.2.2
+
+  p-limit@7.3.2:
     dependencies:
       yocto-queue: 1.2.2
 
