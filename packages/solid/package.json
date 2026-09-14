@@ -62,7 +62,7 @@
     "vite": "8.2.0",
     "vite-plugin-solid": "2.11.12",
     "vitest": "5.0.0",
-    "playwright": "1.59.1"
+    "playwright": "1.63.0"
   },
   "peerDependencies": {
     "@spuxx/browser-utils": "workspace:@spuxx/browser-utils@*",
